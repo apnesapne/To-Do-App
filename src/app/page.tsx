@@ -1,3 +1,9 @@
+import { TaskBoard } from "@/components/task-board";
+
 export default function Home() {
-  return <></>;
+  return (
+    <div className="min-h-screen bg-background font-body text-foreground">
+      <TaskBoard />
+    </div>
+  );
 }
